@@ -1,0 +1,17 @@
+.header-style{
+   background: transparent
+}
+ .header-values {
+   list-style-type: none;
+   padding: 10px;
+   overflow: hidden;
+   background-color: #333;
+   text-align: center;
+ }
+ a{
+     padding: 20px;
+     color: white
+ }
+ .icon-header-class{
+    float :   right;
+ }
