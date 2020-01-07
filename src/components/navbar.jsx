@@ -9,6 +9,7 @@ export default class Navbar extends Component {
                     <div id="navbar" className="header-values">
                         <a href="#home" data-nav-section="home">Introduction</a>
                         <a href="#about" data-nav-section="about">About</a>
+                        <a href="#contact-card" data-nav-section="contactcard">Contact card</a>
                         <a href="#blog" data-nav-section="blog">Blog</a>
                         <a href="#timeline" data-nav-section="timeline">Timeline</a>
                         {/* <div className="icon-header-class">

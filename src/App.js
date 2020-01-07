@@ -6,6 +6,7 @@ import About from './components/about'
 import Timeline from './components/timeline'
 import Blog from './components/blog'
 import Projects from './components/projects'
+import ContactCard from './components/contact-card'
 import Navbar from './components/navbar'
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
           <div id="colorlib-main">
             <Introduction></Introduction>
             <About></About>
+            <ContactCard></ContactCard>
             <Blog></Blog>
             <Timeline></Timeline>
           </div>
