@@ -105,6 +105,14 @@ figure {
   #colorlib-aside .email {
     display: block;
     font-size: 12px;}
+  #colorlib-aside .mailto-style {
+    display: block;
+    color:  black;
+    font-size: 12px;}
+  #text-center .a {
+      display: block;
+      color:  black;
+      font-size: 12px;}
   #colorlib-aside .number {
     display: block;
     margin-bottom: 2em;

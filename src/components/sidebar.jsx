@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import '../css/styling.css'
 export default class Sidebar extends Component {
   render() {
     return (
@@ -11,6 +11,7 @@ export default class Sidebar extends Component {
               <div className="author-img" style={{backgroundImage: 'url(images/profile_image.jpg)'}} />
               <h1 id="colorlib-logo"><a href="index.html">Pavan Kumar</a></h1>
               <span className="email"><i className="icon-mail"></i>pavankumarmangena1998@gmail.com</span>
+              {/* <span id="email-style" className="email"><i className="icon-mail"></i><a href="mailto:pavan@pavankumarmangena1998@gmail.com">pavan</a></span> */}
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -38,7 +39,8 @@ export default class Sidebar extends Component {
                       &copy;   This site is developed by <br/><b>Pavan Kumar Mangena</b>
               </small></p>
               <p><small>
-                           Contact me :  7730906818
+                           <span id="email-style" className="email"><i className="icon-mail"></i><a href="mailto:pavan@pavankumarmangena1998@gmail.com">Click here to Email me</a></span> <br/>
+                           <span id="email-style" className="email"><i className="icon-phone"></i><a href="tel:7730906818">7730906818</a></span>
               </small></p>
             </div>
           </aside>
